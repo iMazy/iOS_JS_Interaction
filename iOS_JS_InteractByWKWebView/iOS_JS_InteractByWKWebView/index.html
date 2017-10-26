@@ -1,4 +1,3 @@
-
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf8">
@@ -17,7 +16,7 @@
                     iFrame = null;
                 }
             function scanClick() {
-                alert(arr);
+<!--                alert(arr);-->
                 loadURL("iOSAction://scanClick");
             }
             
@@ -30,12 +29,12 @@
             }
             
             function setLocation(location) {
-                asyncAlert(location);
                 document.getElementById("returnValue").value = location;
+<!--                asyncAlert(location)-->
             }
             
             function getQRCode(result) {
-                asyncAlert(result);
+<!--                asyncAlert(result);-->
                 document.getElementById("returnValue").value = result;
             }
             
