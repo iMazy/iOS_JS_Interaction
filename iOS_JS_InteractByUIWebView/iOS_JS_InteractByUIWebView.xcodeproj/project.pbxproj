@@ -12,6 +12,7 @@
 		21F6A7291FA18264003EA763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6A7271FA18264003EA763 /* Main.storyboard */; };
 		21F6A72B1FA18264003EA763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F6A72A1FA18264003EA763 /* Assets.xcassets */; };
 		21F6A72E1FA18264003EA763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F6A72C1FA18264003EA763 /* LaunchScreen.storyboard */; };
+		21F6A73B1FA18B16003EA763 /* Index.html in Resources */ = {isa = PBXBuildFile; fileRef = 21F6A73A1FA18B16003EA763 /* Index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21F6A72A1FA18264003EA763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21F6A72D1FA18264003EA763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21F6A72F1FA18264003EA763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F6A73A1FA18B16003EA763 /* Index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				21F6A7231FA18264003EA763 /* AppDelegate.swift */,
 				21F6A7251FA18264003EA763 /* ViewController.swift */,
 				21F6A7271FA18264003EA763 /* Main.storyboard */,
+				21F6A73A1FA18B16003EA763 /* Index.html */,
 				21F6A72A1FA18264003EA763 /* Assets.xcassets */,
 				21F6A72C1FA18264003EA763 /* LaunchScreen.storyboard */,
 				21F6A72F1FA18264003EA763 /* Info.plist */,
@@ -125,6 +128,7 @@
 			files = (
 				21F6A72E1FA18264003EA763 /* LaunchScreen.storyboard in Resources */,
 				21F6A72B1FA18264003EA763 /* Assets.xcassets in Resources */,
+				21F6A73B1FA18B16003EA763 /* Index.html in Resources */,
 				21F6A7291FA18264003EA763 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
