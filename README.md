@@ -1,2 +1,2 @@
 # iOS_JS_Interaction
-demo for iOS interact with JavaScript
+Demo for iOS interact with JavaScript
