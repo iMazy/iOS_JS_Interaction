@@ -134,7 +134,9 @@ extension ViewController {
     
     func addGoBackWithContext(_ context: JSContext) {
         let callBack : @convention(block) (AnyObject?) -> Void = { [weak self] (paramFromJS) -> Void in
-            self?.webView.goBack()
+            DispatchQueue.main.async {
+                self?.webView.goBack()
+            }
         }
         
         context.setObject(unsafeBitCast(callBack, to: AnyObject.self), forKeyedSubscript: "goBack" as NSCopying & NSObjectProtocol)
